@@ -1,0 +1,751 @@
+<html lang="en" class="" style=""><head>
+    <link rel="stylesheet" href="css/fd251a27f2587c38.css" data-precedence="next">
+    <link rel="stylesheet" href="css/11663eb5ca3c6d95.css" data-precedence="next">
+    <link rel="preload" as="script" fetchpriority="low" href="/_next/static/chunks/webpack-df72f040210cd4b7.js">
+    <script src="/_next/static/chunks/f2cc5e91-d7623335b3615c71.js" async=""></script>
+    <script src="/_next/static/chunks/338-88c2543eb1495810.js" async=""></script>
+    <script src="/_next/static/chunks/main-app-76f1cdc32985f09c.js" async=""></script>
+    <script src="/_next/static/chunks/60e44d23-9030edb1391e6489.js" async=""></script>
+    <script src="/_next/static/chunks/731-37ccd956133ed898.js" async=""></script>
+    <link rel="preload" href="css/11663eb5ca3c6d95.css" as="style">
+    <script src="/_next/static/chunks/polyfills-78c92fac7aa8fdd8.js" nomodule=""></script>
+    <script charset="UTF-8" async="" type="text/javascript" src="./c00b1521_1.js"></script>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+        @keyframes w3m-shake {
+          0% {
+            transform: scale(1) rotate(0deg);
+          }
+          20% {
+            transform: scale(1) rotate(-1deg);
+          }
+          40% {
+            transform: scale(1) rotate(1.5deg);
+          }
+          60% {
+            transform: scale(1) rotate(-1.5deg);
+          }
+          80% {
+            transform: scale(1) rotate(1deg);
+          }
+          100% {
+            transform: scale(1) rotate(0deg);
+          }
+        }
+        @keyframes w3m-iframe-fade-out {
+          0% {
+            opacity: 1;
+          }
+          100% {
+            opacity: 0;
+          }
+        }
+        @keyframes w3m-iframe-zoom-in {
+          0% {
+            transform: translateY(50px);
+            opacity: 0;
+          }
+          100% {
+            transform: translateY(0px);
+            opacity: 1;
+          }
+        }
+        @keyframes w3m-iframe-zoom-in-mobile {
+          0% {
+            transform: scale(0.95);
+            opacity: 0;
+          }
+          100% {
+            transform: scale(1);
+            opacity: 1;
+          }
+        }
+        :root {
+          --w3m-modal-width: 360px;
+          --w3m-color-mix-strength: 10%;
+          --w3m-font-family: Inter, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;;
+          --w3m-font-size-master: 10px;
+          --w3m-border-radius-master: 5px;
+          --w3m-z-index: 999;
+
+          --wui-font-family: var(--w3m-font-family);
+
+          --wui-font-size-mini: calc(var(--w3m-font-size-master) * 0.8);
+          --wui-font-size-micro: var(--w3m-font-size-master);
+          --wui-font-size-tiny: calc(var(--w3m-font-size-master) * 1.2);
+          --wui-font-size-small: calc(var(--w3m-font-size-master) * 1.4);
+          --wui-font-size-paragraph: calc(var(--w3m-font-size-master) * 1.6);
+          --wui-font-size-medium: calc(var(--w3m-font-size-master) * 1.8);
+          --wui-font-size-large: calc(var(--w3m-font-size-master) * 2);
+          --wui-font-size-title-6: calc(var(--w3m-font-size-master) * 2.2);
+          --wui-font-size-medium-title: calc(var(--w3m-font-size-master) * 2.4);
+          --wui-font-size-2xl: calc(var(--w3m-font-size-master) * 4);
+
+          --wui-border-radius-5xs: var(--w3m-border-radius-master);
+          --wui-border-radius-4xs: calc(var(--w3m-border-radius-master) * 1.5);
+          --wui-border-radius-3xs: calc(var(--w3m-border-radius-master) * 2);
+          --wui-border-radius-xxs: calc(var(--w3m-border-radius-master) * 3);
+          --wui-border-radius-xs: calc(var(--w3m-border-radius-master) * 4);
+          --wui-border-radius-s: calc(var(--w3m-border-radius-master) * 5);
+          --wui-border-radius-m: calc(var(--w3m-border-radius-master) * 7);
+          --wui-border-radius-l: calc(var(--w3m-border-radius-master) * 9);
+          --wui-border-radius-3xl: calc(var(--w3m-border-radius-master) * 20);
+
+          --wui-font-weight-light: 400;
+          --wui-font-weight-regular: 500;
+          --wui-font-weight-medium: 600;
+          --wui-font-weight-bold: 700;
+
+          --wui-letter-spacing-2xl: -1.6px;
+          --wui-letter-spacing-medium-title: -0.96px;
+          --wui-letter-spacing-title-6: -0.88px;
+          --wui-letter-spacing-large: -0.8px;
+          --wui-letter-spacing-medium: -0.72px;
+          --wui-letter-spacing-paragraph: -0.64px;
+          --wui-letter-spacing-small: -0.56px;
+          --wui-letter-spacing-tiny: -0.48px;
+          --wui-letter-spacing-micro: -0.2px;
+          --wui-letter-spacing-mini: -0.16px;
+
+          --wui-spacing-0: 0px;
+          --wui-spacing-4xs: 2px;
+          --wui-spacing-3xs: 4px;
+          --wui-spacing-xxs: 6px;
+          --wui-spacing-2xs: 7px;
+          --wui-spacing-xs: 8px;
+          --wui-spacing-1xs: 10px;
+          --wui-spacing-s: 12px;
+          --wui-spacing-m: 14px;
+          --wui-spacing-l: 16px;
+          --wui-spacing-2l: 18px;
+          --wui-spacing-xl: 20px;
+          --wui-spacing-xxl: 24px;
+          --wui-spacing-2xl: 32px;
+          --wui-spacing-3xl: 40px;
+          --wui-spacing-4xl: 90px;
+          --wui-spacing-5xl: 95px;
+
+          --wui-icon-box-size-xxs: 14px;
+          --wui-icon-box-size-xs: 20px;
+          --wui-icon-box-size-sm: 24px;
+          --wui-icon-box-size-md: 32px;
+          --wui-icon-box-size-lg: 40px;
+          --wui-icon-box-size-2lg: 48px;
+          --wui-icon-box-size-xl: 64px;
+
+          --wui-icon-size-inherit: inherit;
+          --wui-icon-size-xxs: 10px;
+          --wui-icon-size-xs: 12px;
+          --wui-icon-size-sm: 14px;
+          --wui-icon-size-md: 16px;
+          --wui-icon-size-mdl: 18px;
+          --wui-icon-size-lg: 20px;
+          --wui-icon-size-xl: 24px;
+          --wui-icon-size-xxl: 28px;
+
+          --wui-wallet-image-size-inherit: inherit;
+          --wui-wallet-image-size-sm: 40px;
+          --wui-wallet-image-size-md: 56px;
+          --wui-wallet-image-size-lg: 80px;
+
+          --wui-visual-size-size-inherit: inherit;
+          --wui-visual-size-sm: 40px;
+          --wui-visual-size-md: 55px;
+          --wui-visual-size-lg: 80px;
+
+          --wui-box-size-md: 100px;
+          --wui-box-size-lg: 120px;
+
+          --wui-ease-out-power-2: cubic-bezier(0, 0, 0.22, 1);
+          --wui-ease-out-power-1: cubic-bezier(0, 0, 0.55, 1);
+
+          --wui-ease-in-power-3: cubic-bezier(0.66, 0, 1, 1);
+          --wui-ease-in-power-2: cubic-bezier(0.45, 0, 1, 1);
+          --wui-ease-in-power-1: cubic-bezier(0.3, 0, 1, 1);
+
+          --wui-ease-inout-power-1: cubic-bezier(0.45, 0, 0.55, 1);
+
+          --wui-duration-lg: 200ms;
+          --wui-duration-md: 125ms;
+          --wui-duration-sm: 75ms;
+
+          --wui-path-network-sm: path(
+            'M15.4 2.1a5.21 5.21 0 0 1 5.2 0l11.61 6.7a5.21 5.21 0 0 1 2.61 4.52v13.4c0 1.87-1 3.59-2.6 4.52l-11.61 6.7c-1.62.93-3.6.93-5.22 0l-11.6-6.7a5.21 5.21 0 0 1-2.61-4.51v-13.4c0-1.87 1-3.6 2.6-4.52L15.4 2.1Z'
+          );
+
+          --wui-path-network-md: path(
+            'M43.4605 10.7248L28.0485 1.61089C25.5438 0.129705 22.4562 0.129705 19.9515 1.61088L4.53951 10.7248C2.03626 12.2051 0.5 14.9365 0.5 17.886V36.1139C0.5 39.0635 2.03626 41.7949 4.53951 43.2752L19.9515 52.3891C22.4562 53.8703 25.5438 53.8703 28.0485 52.3891L43.4605 43.2752C45.9637 41.7949 47.5 39.0635 47.5 36.114V17.8861C47.5 14.9365 45.9637 12.2051 43.4605 10.7248Z'
+          );
+
+          --wui-path-network-lg: path(
+            'M78.3244 18.926L50.1808 2.45078C45.7376 -0.150261 40.2624 -0.150262 35.8192 2.45078L7.6756 18.926C3.23322 21.5266 0.5 26.3301 0.5 31.5248V64.4752C0.5 69.6699 3.23322 74.4734 7.6756 77.074L35.8192 93.5492C40.2624 96.1503 45.7376 96.1503 50.1808 93.5492L78.3244 77.074C82.7668 74.4734 85.5 69.6699 85.5 64.4752V31.5248C85.5 26.3301 82.7668 21.5266 78.3244 18.926Z'
+          );
+
+          --wui-width-network-sm: 36px;
+          --wui-width-network-md: 48px;
+          --wui-width-network-lg: 86px;
+
+          --wui-height-network-sm: 40px;
+          --wui-height-network-md: 54px;
+          --wui-height-network-lg: 96px;
+
+          --wui-icon-size-network-xs: 12px;
+          --wui-icon-size-network-sm: 16px;
+          --wui-icon-size-network-md: 24px;
+          --wui-icon-size-network-lg: 42px;
+
+          --wui-color-inherit: inherit;
+
+          --wui-color-inverse-100: #fff;
+          --wui-color-inverse-000: #000;
+
+          --wui-cover: rgba(20, 20, 20, 0.8);
+
+          --wui-color-modal-bg: var(--wui-color-modal-bg-base);
+
+          --wui-color-accent-100: var(--wui-color-accent-base-100);
+          --wui-color-accent-090: var(--wui-color-accent-base-090);
+          --wui-color-accent-080: var(--wui-color-accent-base-080);
+
+          --wui-color-success-100: var(--wui-color-success-base-100);
+
+          --wui-color-error-100: var(--wui-color-error-base-100);
+
+          --wui-icon-box-bg-error-100: var(--wui-icon-box-bg-error-base-100);
+          --wui-icon-box-bg-blue-100: var(--wui-icon-box-bg-blue-base-100);
+          --wui-icon-box-bg-success-100: var(--wui-icon-box-bg-success-base-100);
+          --wui-icon-box-bg-inverse-100: var(--wui-icon-box-bg-inverse-base-100);
+
+          --wui-all-wallets-bg-100: var(--wui-all-wallets-bg-100);
+
+          --wui-avatar-border: var(--wui-avatar-border-base);
+
+          --wui-thumbnail-border: var(--wui-thumbnail-border-base);
+
+          --wui-box-shadow-blue: var(--wui-color-accent-glass-020);
+        }
+
+        @supports (background: color-mix(in srgb, white 50%, black)) {
+          :root {
+            --wui-color-modal-bg: color-mix(
+              in srgb,
+              var(--w3m-color-mix) var(--w3m-color-mix-strength),
+              var(--wui-color-modal-bg-base)
+            );
+
+            --wui-box-shadow-blue: color-mix(in srgb, var(--wui-color-accent-100) 20%, transparent);
+
+            --wui-color-accent-100: color-mix(
+              in srgb,
+              var(--wui-color-accent-base-100) 100%,
+              transparent
+            );
+            --wui-color-accent-090: color-mix(
+              in srgb,
+              var(--wui-color-accent-base-100) 90%,
+              transparent
+            );
+            --wui-color-accent-080: color-mix(
+              in srgb,
+              var(--wui-color-accent-base-100) 80%,
+              transparent
+            );
+            --wui-color-accent-glass-090: color-mix(
+              in srgb,
+              var(--wui-color-accent-base-100) 90%,
+              transparent
+            );
+            --wui-color-accent-glass-080: color-mix(
+              in srgb,
+              var(--wui-color-accent-base-100) 80%,
+              transparent
+            );
+            --wui-color-accent-glass-020: color-mix(
+              in srgb,
+              var(--wui-color-accent-base-100) 20%,
+              transparent
+            );
+            --wui-color-accent-glass-015: color-mix(
+              in srgb,
+              var(--wui-color-accent-base-100) 15%,
+              transparent
+            );
+            --wui-color-accent-glass-010: color-mix(
+              in srgb,
+              var(--wui-color-accent-base-100) 10%,
+              transparent
+            );
+            --wui-color-accent-glass-005: color-mix(
+              in srgb,
+              var(--wui-color-accent-base-100) 5%,
+              transparent
+            );
+            --wui-color-accent-002: color-mix(
+              in srgb,
+              var(--wui-color-accent-base-100) 2%,
+              transparent
+            );
+
+            --wui-color-fg-100: color-mix(
+              in srgb,
+              var(--w3m-color-mix) var(--w3m-color-mix-strength),
+              var(--wui-color-fg-100)
+            );
+            --wui-color-fg-125: color-mix(
+              in srgb,
+              var(--w3m-color-mix) var(--w3m-color-mix-strength),
+              var(--wui-color-fg-125)
+            );
+            --wui-color-fg-150: color-mix(
+              in srgb,
+              var(--w3m-color-mix) var(--w3m-color-mix-strength),
+              var(--wui-color-fg-150)
+            );
+            --wui-color-fg-175: color-mix(
+              in srgb,
+              var(--w3m-color-mix) var(--w3m-color-mix-strength),
+              var(--wui-color-fg-175)
+            );
+            --wui-color-fg-200: color-mix(
+              in srgb,
+              var(--w3m-color-mix) var(--w3m-color-mix-strength),
+              var(--wui-color-fg-200)
+            );
+            --wui-color-fg-225: color-mix(
+              in srgb,
+              var(--w3m-color-mix) var(--w3m-color-mix-strength),
+              var(--wui-color-fg-225)
+            );
+            --wui-color-fg-250: color-mix(
+              in srgb,
+              var(--w3m-color-mix) var(--w3m-color-mix-strength),
+              var(--wui-color-fg-250)
+            );
+            --wui-color-fg-275: color-mix(
+              in srgb,
+              var(--w3m-color-mix) var(--w3m-color-mix-strength),
+              var(--wui-color-fg-275)
+            );
+            --wui-color-fg-300: color-mix(
+              in srgb,
+              var(--w3m-color-mix) var(--w3m-color-mix-strength),
+              var(--wui-color-fg-300)
+            );
+
+            --wui-color-bg-100: color-mix(
+              in srgb,
+              var(--w3m-color-mix) var(--w3m-color-mix-strength),
+              var(--wui-color-bg-100)
+            );
+            --wui-color-bg-125: color-mix(
+              in srgb,
+              var(--w3m-color-mix) var(--w3m-color-mix-strength),
+              var(--wui-color-bg-125)
+            );
+            --wui-color-bg-150: color-mix(
+              in srgb,
+              var(--w3m-color-mix) var(--w3m-color-mix-strength),
+              var(--wui-color-bg-150)
+            );
+            --wui-color-bg-175: color-mix(
+              in srgb,
+              var(--w3m-color-mix) var(--w3m-color-mix-strength),
+              var(--wui-color-bg-175)
+            );
+            --wui-color-bg-200: color-mix(
+              in srgb,
+              var(--w3m-color-mix) var(--w3m-color-mix-strength),
+              var(--wui-color-bg-200)
+            );
+            --wui-color-bg-225: color-mix(
+              in srgb,
+              var(--w3m-color-mix) var(--w3m-color-mix-strength),
+              var(--wui-color-bg-225)
+            );
+            --wui-color-bg-250: color-mix(
+              in srgb,
+              var(--w3m-color-mix) var(--w3m-color-mix-strength),
+              var(--wui-color-bg-250)
+            );
+            --wui-color-bg-275: color-mix(
+              in srgb,
+              var(--w3m-color-mix) var(--w3m-color-mix-strength),
+              var(--wui-color-bg-275)
+            );
+            --wui-color-bg-300: color-mix(
+              in srgb,
+              var(--w3m-color-mix) var(--w3m-color-mix-strength),
+              var(--wui-color-bg-300)
+            );
+
+            --wui-color-success-100: color-mix(
+              in srgb,
+              var(--w3m-color-mix) var(--w3m-color-mix-strength),
+              var(--wui-color-success-base-100)
+            );
+            --wui-color-error-100: color-mix(
+              in srgb,
+              var(--w3m-color-mix) var(--w3m-color-mix-strength),
+              var(--wui-color-error-base-100)
+            );
+
+            --wui-icon-box-bg-error-100: color-mix(
+              in srgb,
+              var(--w3m-color-mix) var(--w3m-color-mix-strength),
+              var(--wui-icon-box-bg-error-base-100)
+            );
+            --wui-icon-box-bg-accent-100: color-mix(
+              in srgb,
+              var(--w3m-color-mix) var(--w3m-color-mix-strength),
+              var(--wui-icon-box-bg-blue-base-100)
+            );
+            --wui-icon-box-bg-success-100: color-mix(
+              in srgb,
+              var(--w3m-color-mix) var(--w3m-color-mix-strength),
+              var(--wui-icon-box-bg-success-base-100)
+            );
+            --wui-icon-box-bg-inverse-100: color-mix(
+              in srgb,
+              var(--w3m-color-mix) var(--w3m-color-mix-strength),
+              var(--wui-icon-box-bg-inverse-base-100)
+            );
+
+            --wui-all-wallets-bg-100: color-mix(
+              in srgb,
+              var(--w3m-color-mix) var(--w3m-color-mix-strength),
+              var(--wui-all-wallets-bg-100)
+            );
+
+            --wui-avatar-border: color-mix(
+              in srgb,
+              var(--w3m-color-mix) var(--w3m-color-mix-strength),
+              var(--wui-avatar-border-base)
+            );
+
+            --wui-thumbnail-border: color-mix(
+              in srgb,
+              var(--w3m-color-mix) var(--w3m-color-mix-strength),
+              var(--wui-thumbnail-border-base)
+            );
+          }
+        }
+    </style>
+    <style media="enabled">
+        :root {
+          --w3m-color-mix: #212121;
+          --w3m-accent: #3A3A3A;
+          --w3m-default: #000;
+
+          --wui-color-modal-bg-base: #fff;
+          --wui-color-accent-base-100: var(--w3m-accent);
+
+          --wui-color-blueberry-100: hsla(231, 100%, 70%, 1);
+          --wui-color-blueberry-090: hsla(231, 97%, 72%, 1);
+          --wui-color-blueberry-080: hsla(231, 92%, 74%, 1);
+
+          --wui-color-fg-100: #141414;
+          --wui-color-fg-125: #2d3131;
+          --wui-color-fg-150: #474d4d;
+          --wui-color-fg-175: #636d6d;
+          --wui-color-fg-200: #798686;
+          --wui-color-fg-225: #828f8f;
+          --wui-color-fg-250: #8b9797;
+          --wui-color-fg-275: #95a0a0;
+          --wui-color-fg-300: #9ea9a9;
+
+          --wui-color-bg-100: #ffffff;
+          --wui-color-bg-125: #f5fafa;
+          --wui-color-bg-150: #f3f8f8;
+          --wui-color-bg-175: #eef4f4;
+          --wui-color-bg-200: #eaf1f1;
+          --wui-color-bg-225: #e5eded;
+          --wui-color-bg-250: #e1e9e9;
+          --wui-color-bg-275: #dce7e7;
+          --wui-color-bg-300: #d8e3e3;
+
+          --wui-color-success-base-100: #26b562;
+          --wui-color-error-base-100: #f05142;
+
+          --wui-color-success-glass-001: rgba(38, 181, 98, 0.01);
+          --wui-color-success-glass-002: rgba(38, 181, 98, 0.02);
+          --wui-color-success-glass-005: rgba(38, 181, 98, 0.05);
+          --wui-color-success-glass-010: rgba(38, 181, 98, 0.1);
+          --wui-color-success-glass-015: rgba(38, 181, 98, 0.15);
+          --wui-color-success-glass-020: rgba(38, 181, 98, 0.2);
+          --wui-color-success-glass-025: rgba(38, 181, 98, 0.25);
+          --wui-color-success-glass-030: rgba(38, 181, 98, 0.3);
+          --wui-color-success-glass-060: rgba(38, 181, 98, 0.6);
+          --wui-color-success-glass-080: rgba(38, 181, 98, 0.8);
+
+          --wui-color-error-glass-001: rgba(240, 81, 66, 0.01);
+          --wui-color-error-glass-002: rgba(240, 81, 66, 0.02);
+          --wui-color-error-glass-005: rgba(240, 81, 66, 0.05);
+          --wui-color-error-glass-010: rgba(240, 81, 66, 0.1);
+          --wui-color-error-glass-015: rgba(240, 81, 66, 0.15);
+          --wui-color-error-glass-020: rgba(240, 81, 66, 0.2);
+          --wui-color-error-glass-025: rgba(240, 81, 66, 0.25);
+          --wui-color-error-glass-030: rgba(240, 81, 66, 0.3);
+          --wui-color-error-glass-060: rgba(240, 81, 66, 0.6);
+          --wui-color-error-glass-080: rgba(240, 81, 66, 0.8);
+
+          --wui-icon-box-bg-error-base-100: #f4dfdd;
+          --wui-icon-box-bg-blue-base-100: #d9ecfb;
+          --wui-icon-box-bg-success-base-100: #daf0e4;
+          --wui-icon-box-bg-inverse-base-100: #dcecfc;
+
+          --wui-all-wallets-bg-100: #e8f1fa;
+
+          --wui-avatar-border-base: #f3f4f4;
+
+          --wui-thumbnail-border-base: #eaefef;
+
+          --wui-color-gray-glass-001: rgba(0, 0, 0, 0.01);
+          --wui-color-gray-glass-002: rgba(0, 0, 0, 0.02);
+          --wui-color-gray-glass-005: rgba(0, 0, 0, 0.05);
+          --wui-color-gray-glass-010: rgba(0, 0, 0, 0.1);
+          --wui-color-gray-glass-015: rgba(0, 0, 0, 0.15);
+          --wui-color-gray-glass-020: rgba(0, 0, 0, 0.2);
+          --wui-color-gray-glass-025: rgba(0, 0, 0, 0.25);
+          --wui-color-gray-glass-030: rgba(0, 0, 0, 0.3);
+          --wui-color-gray-glass-060: rgba(0, 0, 0, 0.6);
+          --wui-color-gray-glass-080: rgba(0, 0, 0, 0.8);
+          --wui-color-gray-glass-090: rgba(0, 0, 0, 0.9);
+        }
+    </style>
+    <style>
+        :root {
+          --w3m-color-mix: #212121;
+          --w3m-accent: #3A3A3A;
+          --w3m-default: #fff;
+
+          --wui-color-modal-bg-base: #121313;
+          --wui-color-accent-base-100: var(--w3m-accent);
+
+          --wui-color-blueberry-100: hsla(230, 100%, 67%, 1);
+          --wui-color-blueberry-090: hsla(231, 76%, 61%, 1);
+          --wui-color-blueberry-080: hsla(230, 59%, 55%, 1);
+          --wui-color-blueberry-050: hsla(231, 100%, 70%, 0.1);
+
+          --wui-color-fg-100: #e4e7e7;
+          --wui-color-fg-125: #d0d5d5;
+          --wui-color-fg-150: #a8b1b1;
+          --wui-color-fg-175: #a8b0b0;
+          --wui-color-fg-200: #949e9e;
+          --wui-color-fg-225: #868f8f;
+          --wui-color-fg-250: #788080;
+          --wui-color-fg-275: #788181;
+          --wui-color-fg-300: #6e7777;
+
+          --wui-color-bg-100: #141414;
+          --wui-color-bg-125: #191a1a;
+          --wui-color-bg-150: #1e1f1f;
+          --wui-color-bg-175: #222525;
+          --wui-color-bg-200: #272a2a;
+          --wui-color-bg-225: #2c3030;
+          --wui-color-bg-250: #313535;
+          --wui-color-bg-275: #363b3b;
+          --wui-color-bg-300: #3b4040;
+
+          --wui-color-success-base-100: #26d962;
+          --wui-color-error-base-100: #f25a67;
+
+          --wui-color-success-glass-001: rgba(38, 217, 98, 0.01);
+          --wui-color-success-glass-002: rgba(38, 217, 98, 0.02);
+          --wui-color-success-glass-005: rgba(38, 217, 98, 0.05);
+          --wui-color-success-glass-010: rgba(38, 217, 98, 0.1);
+          --wui-color-success-glass-015: rgba(38, 217, 98, 0.15);
+          --wui-color-success-glass-020: rgba(38, 217, 98, 0.2);
+          --wui-color-success-glass-025: rgba(38, 217, 98, 0.25);
+          --wui-color-success-glass-030: rgba(38, 217, 98, 0.3);
+          --wui-color-success-glass-060: rgba(38, 217, 98, 0.6);
+          --wui-color-success-glass-080: rgba(38, 217, 98, 0.8);
+
+          --wui-color-error-glass-001: rgba(242, 90, 103, 0.01);
+          --wui-color-error-glass-002: rgba(242, 90, 103, 0.02);
+          --wui-color-error-glass-005: rgba(242, 90, 103, 0.05);
+          --wui-color-error-glass-010: rgba(242, 90, 103, 0.1);
+          --wui-color-error-glass-015: rgba(242, 90, 103, 0.15);
+          --wui-color-error-glass-020: rgba(242, 90, 103, 0.2);
+          --wui-color-error-glass-025: rgba(242, 90, 103, 0.25);
+          --wui-color-error-glass-030: rgba(242, 90, 103, 0.3);
+          --wui-color-error-glass-060: rgba(242, 90, 103, 0.6);
+          --wui-color-error-glass-080: rgba(242, 90, 103, 0.8);
+
+          --wui-color-gray-glass-001: rgba(255, 255, 255, 0.01);
+          --wui-color-gray-glass-002: rgba(255, 255, 255, 0.02);
+          --wui-color-gray-glass-005: rgba(255, 255, 255, 0.05);
+          --wui-color-gray-glass-010: rgba(255, 255, 255, 0.1);
+          --wui-color-gray-glass-015: rgba(255, 255, 255, 0.15);
+          --wui-color-gray-glass-020: rgba(255, 255, 255, 0.2);
+          --wui-color-gray-glass-025: rgba(255, 255, 255, 0.25);
+          --wui-color-gray-glass-030: rgba(255, 255, 255, 0.3);
+          --wui-color-gray-glass-060: rgba(255, 255, 255, 0.6);
+          --wui-color-gray-glass-080: rgba(255, 255, 255, 0.8);
+          --wui-color-gray-glass-090: rgba(255, 255, 255, 0.9);
+
+          --wui-icon-box-bg-error-base-100: #3c2426;
+          --wui-icon-box-bg-blue-base-100: #20303f;
+          --wui-icon-box-bg-success-base-100: #1f3a28;
+          --wui-icon-box-bg-inverse-base-100: #243240;
+
+          --wui-all-wallets-bg-100: #222b35;
+
+          --wui-avatar-border-base: #252525;
+
+          --wui-thumbnail-border-base: #252525;
+        }
+    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title>Zoth Atlas</title>
+    <meta name="description" content="A multichain platform connecting DeFi users with real-world asset-backed opportunities—yield-bearing, stable, and secure..">
+    <link rel="icon" href="https://atlas.zoth.io/favicon.ico" type="image/x-icon" sizes="16x16">
+    <link type="text/css" rel="stylesheet" charset="UTF-8" href="https://www.gstatic.com/_/translate_http/_/ss/k=translate_http.tr.26tY-h6gH9w.L.W.O/am=QDA/d=0/rs=AN8SPfrycRFEIstD_ODMax_0dvnH_HM3_Q/m=el_main_css">
+</head>
+
+<body class="min-h-screen bg-black-800 font-Inter">
+    <script src="/_next/static/chunks/webpack-df72f040210cd4b7.js" async=""></script>
+    <script>
+        (self.__next_f=self.__next_f||[]).push([0]);self.__next_f.push([2,null])
+    </script>
+    <script>
+        self.__next_f.push([1,"1:HL[\"/_next/static/css/fd251a27f2587c38.css\",\"style\"]\n2:HL[\"/_next/static/css/11663eb5ca3c6d95.css\",\"style\"]\n"])
+    </script>
+    <script>
+        self.__next_f.push([1,"3:I[96014,[],\"\"]\n8:I[7517,[],\"\"]\n9:[]\n0:[[[\"$\",\"link\",\"0\",{\"rel\":\"stylesheet\",\"href\":\"/_next/static/css/fd251a27f2587c38.css\",\"precedence\":\"next\",\"crossOrigin\":\"$undefined\"}]],[\"$\",\"$L3\",null,{\"buildId\":\"0lP5TFpj-QJql_bAJMa8p\",\"assetPrefix\":\"\",\"initialCanonicalUrl\":\"/\",\"initialTree\":[\"\",{\"children\":[\"__PAGE__\",{}]},\"$undefined\",\"$undefined\",true],\"initialSeedData\":[\"\",{\"children\":[\"__PAGE__\",{},[[\"$L4\",\"$L5\"],null],null]},[\"$L6\",null],[[\"$\",\"div\",null,{\"className\":\"flex min-h-screen items-center justify-center\",\"children\":[\"$\",\"div\",null,{\"className\":\"loader\"}]}],[],[]]],\"couldBeIntercepted\":false,\"initialHead\":[null,\"$L7\"],\"globalErrorComponent\":\"$8\",\"missingSlots\":\"$W9\"}]]\n"])
+    </script>
+    <script>
+        self.__next_f.push([1,"a:I[56388,[\"437\",\"static/chunks/60e44d23-9030edb1391e6489.js\",\"731\",\"static/chunks/731-37ccd956133ed898.js\",\"901\",\"static/chunks/901-2c32d85880acef38.js\",\"862\",\"static/chunks/862-6893a7e1a9900fbe.js\",\"155\",\"static/chunks/155-351ca46888c65681.js\",\"177\",\"static/chunks/177-60e5a3927ee77f5e.js\",\"872\",\"static/chunks/872-11a56088014b47b1.js\",\"185\",\"static/chunks/app/layout-de9e0e9693e881d2.js\"],\"GoogleAnalytics\"]\nb:I[76280,[\"437\",\"static/chunks/60e44d23-9030edb1391e6489.js\",\"731\",\"static/chunks/731-37ccd956133ed898.js\",\"901\",\"static/chunks/901-2c32d85880acef38.js\",\"862\",\"static/chunks/862-6893a7e1a9900fbe.js\",\"155\",\"static/chunks/155-351ca46888c65681.js\",\"177\",\"static/chunks/177-60e5a3927ee77f5e.js\",\"872\",\"static/chunks/872-11a56088014b47b1.js\",\"185\",\"static/chunks/app/layout-de9e0e9693e881d2.js\"],\"default\"]\nc:I[71318,[\"437\",\"static/chunks/60e44d23-9030edb1391e6489.js\",\"731\",\"static/chunks/731-37ccd956133ed898.js\",\"901\",\"static/chunks/901-2c32d85880acef38.js\",\"862\",\"static/chunks/862-6893a7e1a9900fbe.js\",\"155\",\"static/chunks/155-351ca46888c65681.js\",\"177\",\"static/chunks/177-60e5a3927ee77f5e.js\",\"872\",\"static/chunks/872-11a56088014b47b1.js\",\"185\",\"static/chunks/app/layout-de9e0e9693e881d2.js\"],\"default\"]\nd:I[88054,[],\"\"]\ne:I[618,[],\"\"]\nf:I[84518,[\"437\",\"static/chunks/60e44d23-9030edb1391e6489.js\",\"731\",\"static/chunks/731-37ccd956133ed898.js\",\"901\",\"static/chunks/901-2c32d85880acef38.js\",\"862\",\"static/chunks/862-6893a7e1a9900fbe.js\",\"155\",\"static/chunks/155-351ca46888c65681.js\",\"177\",\"static/chunks/177-60e5a3927ee77f5e.js\",\"872\",\"static/chunks/872-11a56088014b47b1.js\",\"185\",\"static/chunks/app/layout-de9e0e9693e881d2.js\"],\"\"]\n10:I[90185,[\"437\",\"static/chunks/60e44d23-9030edb1391e6489.js\",\"731\",\"static/chunks/731-37ccd956133ed898.js\",\"901\",\"static/chunks/901-2c32d85880acef38.js\",\"380\",\"static/chunks/380-da5893b88c52f94f.js\",\"763\",\"static/chunks/763-3586f19b26586dfd.js\",\"934\",\"static/chunks/934-88078d597e8e7e9a.js\",\"752\",\"static/chunks/752-b8d4f6d14909c900.js\",\"931\",\"static/chunks/app/page-dd2999ee0e3ff449.js\"],\"Image\"]\n11:"])
+    </script>
+    <script>
+        self.__next_f.push([1,"I[81435,[\"437\",\"static/chunks/60e44d23-9030edb1391e6489.js\",\"731\",\"static/chunks/731-37ccd956133ed898.js\",\"901\",\"static/chunks/901-2c32d85880acef38.js\",\"862\",\"static/chunks/862-6893a7e1a9900fbe.js\",\"155\",\"static/chunks/155-351ca46888c65681.js\",\"177\",\"static/chunks/177-60e5a3927ee77f5e.js\",\"872\",\"static/chunks/872-11a56088014b47b1.js\",\"185\",\"static/chunks/app/layout-de9e0e9693e881d2.js\"],\"default\"]\n12:I[47353,[\"437\",\"static/chunks/60e44d23-9030edb1391e6489.js\",\"731\",\"static/chunks/731-37ccd956133ed898.js\",\"901\",\"static/chunks/901-2c32d85880acef38.js\",\"862\",\"static/chunks/862-6893a7e1a9900fbe.js\",\"155\",\"static/chunks/155-351ca46888c65681.js\",\"177\",\"static/chunks/177-60e5a3927ee77f5e.js\",\"872\",\"static/chunks/872-11a56088014b47b1.js\",\"185\",\"static/chunks/app/layout-de9e0e9693e881d2.js\"],\"Toaster\"]\n"])
+    </script>
+    <script>
+        self.__next_f.push([1,"6:[\"$\",\"html\",null,{\"lang\":\"en\",\"children\":[[\"$\",\"$La\",null,{\"gaId\":\"G-1427Q67QGB\"}],[\"$\",\"body\",null,{\"className\":\"min-h-screen bg-black-800 font-Inter\",\"children\":[\"$\",\"$Lb\",null,{\"initialState\":\"$undefined\",\"children\":[[\"$\",\"$Lc\",null,{\"magnets\":\"$undefined\"}],[\"$\",\"$Ld\",null,{\"parallelRouterKey\":\"children\",\"segmentPath\":[\"children\"],\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"errorScripts\":\"$undefined\",\"template\":[\"$\",\"$Le\",null,{}],\"templateStyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":[[\"$\",\"title\",null,{\"children\":\"404: This page could not be found.\"}],[\"$\",\"div\",null,{\"style\":{\"fontFamily\":\"system-ui,\\\"Segoe UI\\\",Roboto,Helvetica,Arial,sans-serif,\\\"Apple Color Emoji\\\",\\\"Segoe UI Emoji\\\"\",\"height\":\"100vh\",\"textAlign\":\"center\",\"display\":\"flex\",\"flexDirection\":\"column\",\"alignItems\":\"center\",\"justifyContent\":\"center\"},\"children\":[\"$\",\"div\",null,{\"children\":[[\"$\",\"style\",null,{\"dangerouslySetInnerHTML\":{\"__html\":\"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}\"}}],[\"$\",\"h1\",null,{\"className\":\"next-error-h1\",\"style\":{\"display\":\"inline-block\",\"margin\":\"0 20px 0 0\",\"padding\":\"0 23px 0 0\",\"fontSize\":24,\"fontWeight\":500,\"verticalAlign\":\"top\",\"lineHeight\":\"49px\"},\"children\":\"404\"}],[\"$\",\"div\",null,{\"style\":{\"display\":\"inline-block\"},\"children\":[\"$\",\"h2\",null,{\"style\":{\"fontSize\":14,\"fontWeight\":400,\"lineHeight\":\"49px\",\"margin\":0},\"children\":\"This page could not be found.\"}]}]]}]}]],\"notFoundStyles\":[],\"styles\":[[\"$\",\"link\",\"0\",{\"rel\":\"stylesheet\",\"href\":\"/_next/static/css/11663eb5ca3c6d95.css\",\"precedence\":\"next\",\"crossOrigin\":\"$undefined\"}]]}],[\"$\",\"div\",null,{\"className\":\"mx-auto flex w-full max-w-[1400px] flex-col items-start justify-between border-t border-[#5C5C5C] py-2 max-lg:px-4 lg:flex-row lg:items-center\",\"children\":[[\"$\",\"div\",null,{\"className\":\"font-medium text-[#5C5C5C]\",\"children\":[\"© \",2024,\" Metaco Intelligence Corp\"]}],[\"$\",\"div\",null,{\"className\":\"z-20 flex gap-3\",\"children\":[[\"$\",\"$Lf\",\"0\",{\"href\":\"https://www.linkedin.com/company/zoth-io/\",\"target\":\"_blank\",\"rel\":\"noreferrer\",\"className\":\"group inline-block lg:mx-2\",\"children\":[\"$\",\"div\",null,{\"className\":\"flex h-7 w-7 items-center justify-center rounded-full bg-transparent transition-all duration-300 group-hover:bg-gray-400\",\"children\":[\"$\",\"$L10\",null,{\"src\":\"/images/socials/linkedin.svg\",\"alt\":\"linkedin\",\"height\":28,\"width\":28}]}]}],[\"$\",\"$Lf\",\"1\",{\"href\":\"https://telegram.me/zothio\",\"target\":\"_blank\",\"rel\":\"noreferrer\",\"className\":\"group inline-block lg:mx-2\",\"children\":[\"$\",\"div\",null,{\"className\":\"flex h-7 w-7 items-center justify-center rounded-full bg-transparent transition-all duration-300 group-hover:bg-gray-400\",\"children\":[\"$\",\"$L10\",null,{\"src\":\"/images/socials/telegram.svg\",\"alt\":\"telegram\",\"height\":28,\"width\":28}]}]}],[\"$\",\"$Lf\",\"2\",{\"href\":\"https://twitter.com/zothdotio\",\"target\":\"_blank\",\"rel\":\"noreferrer\",\"className\":\"group inline-block lg:mx-2\",\"children\":[\"$\",\"div\",null,{\"className\":\"flex h-7 w-7 items-center justify-center rounded-full bg-transparent transition-all duration-300 group-hover:bg-gray-400\",\"children\":[\"$\",\"$L10\",null,{\"src\":\"/images/socials/x.svg\",\"alt\":\"x\",\"height\":28,\"width\":28}]}]}],[\"$\",\"$Lf\",\"3\",{\"href\":\"mailto:contactus@zoth.io\",\"target\":\"_blank\",\"rel\":\"noreferrer\",\"className\":\"group inline-block lg:mx-2\",\"children\":[\"$\",\"div\",null,{\"className\":\"flex h-7 w-7 items-center justify-center rounded-full bg-transparent transition-all duration-300 group-hover:bg-gray-400\",\"children\":[\"$\",\"$L10\",null,{\"src\":\"/images/socials/email.svg\",\"alt\":\"mail\",\"height\":28,\"width\":28}]}]}],[\"$\",\"$Lf\",\"4\",{\"href\":\"https://discord.com/invite/xBZhGn4AH8\",\"target\":\"_blank\",\"rel\":\"noreferrer\",\"className\":\"group inline-block lg:mx-2\",\"children\":[\"$\",\"div\",null,{\"className\":\"flex h-7 w-7 items-center justify-center rounded-full bg-transparent transition-all duration-300 group-hover:bg-gray-400\",\"children\":[\"$\",\"$L10\",null,{\"src\":\"/images/socials/discord.svg\",\"alt\":\"discord\",\"height\":28,\"width\":28}]}]}],[\"$\",\"$Lf\",\"5\",{\"href\":\"https://medium.com/@zoth.io\",\"target\":\"_blank\",\"rel\":\"noreferrer\",\"className\":\"group inline-block lg:mx-2\",\"children\":[\"$\",\"div\",null,{\"className\":\"flex h-7 w-7 items-center justify-center rounded-full bg-transparent transition-all duration-300 group-hover:bg-gray-400\",\"children\":[\"$\",\"$L10\",null,{\"src\":\"/images/socials/medium.svg\",\"alt\":\"medium\",\"height\":28,\"width\":28}]}]}],[\"$\",\"$Lf\",\"6\",{\"href\":\"https://warpcast.com/zoth\",\"target\":\"_blank\",\"rel\":\"noreferrer\",\"className\":\"group inline-block lg:mx-2\",\"children\":[\"$\",\"div\",null,{\"className\":\"flex h-7 w-7 items-center justify-center rounded-full bg-transparent transition-all duration-300 group-hover:bg-gray-400\",\"children\":[\"$\",\"$L10\",null,{\"src\":\"/images/socials/warpcast.svg\",\"alt\":\"Warpcast\",\"height\":28,\"width\":28}]}]}]]}]]}],[\"$\",\"$L11\",null,{}],[\"$\",\"$L12\",null,{}]]}]}]]}]\n"])
+    </script>
+    <script>
+        self.__next_f.push([1,"7:[[\"$\",\"meta\",\"0\",{\"name\":\"viewport\",\"content\":\"width=device-width, initial-scale=1\"}],[\"$\",\"meta\",\"1\",{\"charSet\":\"utf-8\"}],[\"$\",\"title\",\"2\",{\"children\":\"Zoth Atlas\"}],[\"$\",\"meta\",\"3\",{\"name\":\"description\",\"content\":\"A multichain platform connecting DeFi users with real-world asset-backed opportunities—yield-bearing, stable, and secure..\"}],[\"$\",\"link\",\"4\",{\"rel\":\"icon\",\"href\":\"/favicon.ico\",\"type\":\"image/x-icon\",\"sizes\":\"16x16\"}]]\n4:null\n5:E{\"digest\":\"NEXT_REDIRECT;replace;/landing;307;\"}\n"])
+    </script>
+    <script id="_next-ga-init" data-nscript="afterInteractive">
+        window['dataLayer'] = window['dataLayer'] || [];
+        function gtag(){window['dataLayer'].push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-1427Q67QGB');
+    </script>
+    <script src="https://www.googletagmanager.com/gtag/js?id=G-1427Q67QGB" id="_next-ga" data-nscript="afterInteractive"></script>
+    <next-route-announcer style="position: absolute;"></next-route-announcer>
+    <w3m-modal></w3m-modal>
+    <div class="z-10 w-full border-b-[#5a4949] bg-[#121212] p-3 lg:h-20 lg:border-b-0 lg:bg-transparent">
+        <div class="mx-auto flex w-full max-w-[1400px] flex-col items-center justify-between lg:flex-row">
+            <div class="z-50 flex w-full items-center justify-between lg:w-auto"><img alt="Logo" loading="lazy" width="156" height="30" decoding="async" data-nimg="1" class="h-[26.41px] w-[137px] sm:h-[26.41px] sm:w-[137px] lg:h-[30px] lg:w-[156px]" src="https://zoth.io/images/navbar/logo.svg" style="/* width: 200px; */color: transparent;">
+                <div class="lg:hidden">
+                    <w3m-button></w3m-button>
+                </div>
+            </div>
+            <div class="z-20 max-lg:hidden">
+                <div class="relative"><button class="inline-flex items-center justify-center whitespace-nowrap text-sm font-medium focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 bg-black-button-gradient1 text-white rounded-full border border-black-400 transition-all duration-700 ease-in-out hover:bg-black-button-gradient2 hover:border-black-900 hover:cursor-pointer h-9 px-4 py-2 max-lg:hidden">Connect Wallet</button>
+                    <div class="absolute -left-36 top-12 z-50 w-[22rem] overflow-hidden rounded-xl bg-black-button-gradient1 transition-all h-0">
+                        <div class="flex justify-between"><button class="flex items-center gap-2"><img alt="Profile" loading="lazy" width="20" height="20" decoding="async" data-nimg="1" src="/images/navbar/profile.svg" style="color: transparent;"><span class="font-semibold text-[#FFFFFF]">...</span><img alt="copy" loading="lazy" width="14" height="14" decoding="async" data-nimg="1" src="/images/navbar/copy.svg" style="color: transparent;"></button><button><img alt="disconnect" loading="lazy" width="28" height="28" decoding="async" data-nimg="1" src="/images/navbar/disconnect.svg" style="color: transparent;"></button></div>
+                        <div class="mt-10 flex justify-between gap-10">
+                            <div><span class="font-medium text-[#A0A0A0]">ZeUSD Holdings</span>
+                                <div class="flex gap-2">
+                                    <p class="text-2xl font-semibold text-[#FEFEFE]">0.00</p><img alt="zeusd" loading="lazy" width="24" height="24" decoding="async" data-nimg="1" src="/images/zeusd.svg" style="color: transparent;">
+                                </div>
+                            </div>
+                            <div><span class="font-medium text-[#A0A0A0]">Total Magnets</span>
+                                <div class="flex gap-2">
+                                    <p class="text-2xl font-semibold text-[#FEFEFE]">0.00</p><img alt="zeusd" loading="lazy" width="28" height="28" decoding="async" data-nimg="1" src="/images/magvault/magnetBlue.svg" style="color: transparent;">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="bg-[url('/images/landing/landingBg.svg')] bg-cover bg-center bg-no-repeat">
+        <div class="z-1 absolute inset-0 flex items-center justify-center">
+            <div class="hidden h-[358px] w-[358px] rounded-full border border-[#1F1F1F] md:block md:h-[250px] md:w-[250px] xl:h-[380px] xl:w-[380px] 2xl:h-[608px] 2xl:w-[608px]"></div>
+            <div class="h-[358px] w-[358px] rounded-full border border-[#1F1F1F] bg-gradient-to-tr from-[#3c3c3c] via-[#090909] to-[#090909] md:h-[250px] md:w-[250px] xl:h-[380px] xl:w-[380px] 2xl:h-[608px] 2xl:w-[608px]"></div>
+            <div class="hidden h-[358px] w-[358px] rounded-full border border-[#1F1F1F] md:block md:h-[250px] md:w-[250px] xl:h-[380px] xl:w-[380px] 2xl:h-[608px] 2xl:w-[608px]"></div>
+        </div>
+        <div class="relative z-10 mx-auto flex min-h-[calc(100vh-8rem)] max-w-6xl flex-grow flex-col items-center justify-center gap-8 px-4 text-center md:px-8 lg:px-16">
+            <div class="">
+                <div class="text-center text-4xl font-medium leading-10 lg:text-6xl">
+                    <p class="text-blue-100">ZOTH</p>
+                    <p class="mt-3 bg-atlas-gradient bg-clip-text text-transparent">Token Rewards</p>
+                </div>
+                <p class="mx-auto mb-4 mt-4 text-xl leading-snug text-[#E0E0E0] lg:mb-7 lg:w-2/3">Now Live: Access Stable, High-Quality Yield with Zoth Tokenized Liquid Note (ZTLN)</p>
+            </div>
+            <div class="my-5">
+                <p class="font-inter text-center text-sm font-medium leading-6 text-[#737373] lg:text-base lg:tracking-normal">Connect Your Wallet to Get Started</p>
+<button class="connectButton inline-flex items-center justify-center whitespace-nowrap text-sm font-medium focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 bg-black-button-gradient1 text-white rounded-full border border-black-400 transition-all duration-700 ease-in-out hover:bg-black-button-gradient2 hover:border-black-900 hover:cursor-pointer h-9 px-4 py-2 max-lg:hidden" style="
+    margin-top: 20px;
+">Connect Wallet</button>
+            </div>
+            <div class="flex w-full justify-center gap-5">
+                <div class="w-1/2 rounded-xl border border-[#3A3A3A] bg-black-button-gradient1 p-5 lg:w-56">
+                    <div class="text-xl font-medium text-[#E0E0E0] lg:text-3xl">1.5 Million</div>
+                    <div class="mt-2 text-[#999999] lg:text-xl">Wallets</div>
+                </div>
+                <div class="w-1/2 rounded-xl border border-[#3A3A3A] bg-black-button-gradient1 p-5 lg:w-56">
+                    <div class="text-xl font-medium text-[#E0E0E0] lg:text-3xl">12 Million +</div>
+                    <div class="mt-2 text-[#999999] lg:text-xl">Transactions</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="mx-auto flex w-full max-w-[1400px] flex-col items-start justify-between border-t border-[#5C5C5C] py-2 max-lg:px-4 lg:flex-row lg:items-center">
+        <div class="font-medium text-[#5C5C5C]">© 2024 Metaco Intelligence Corp</div>
+        <div class="z-20 flex gap-3"><a target="_blank" rel="noreferrer" class="group inline-block lg:mx-2" href="https://www.linkedin.com/company/zoth-io/">
+                <div class="flex h-7 w-7 items-center justify-center rounded-full bg-transparent transition-all duration-300 group-hover:bg-gray-400"><img alt="linkedin" loading="lazy" width="28" height="28" decoding="async" data-nimg="1" src="https://atlas.zoth.io/images/socials/linkedin.svg" style="color: transparent;"></div>
+            </a><a target="_blank" rel="noreferrer" class="group inline-block lg:mx-2" href="https://telegram.me/zothio">
+                <div class="flex h-7 w-7 items-center justify-center rounded-full bg-transparent transition-all duration-300 group-hover:bg-gray-400"><img alt="telegram" loading="lazy" width="28" height="28" decoding="async" data-nimg="1" src="https://atlas.zoth.io/images/socials/telegram.svg" style="color: transparent;"></div>
+            </a><a target="_blank" rel="noreferrer" class="group inline-block lg:mx-2" href="https://twitter.com/zothdotio">
+                <div class="flex h-7 w-7 items-center justify-center rounded-full bg-transparent transition-all duration-300 group-hover:bg-gray-400"><img alt="x" loading="lazy" width="28" height="28" decoding="async" data-nimg="1" src="https://atlas.zoth.io/images/socials/x.svg" style="color: transparent;"></div>
+            </a><a target="_blank" rel="noreferrer" class="group inline-block lg:mx-2" href="mailto:contactus@zoth.io">
+                <div class="flex h-7 w-7 items-center justify-center rounded-full bg-transparent transition-all duration-300 group-hover:bg-gray-400"><img alt="mail" loading="lazy" width="28" height="28" decoding="async" data-nimg="1" src="https://atlas.zoth.io/images/socials/email.svg" style="color: transparent;"></div>
+            </a><a target="_blank" rel="noreferrer" class="group inline-block lg:mx-2" href="https://discord.com/invite/xBZhGn4AH8">
+                <div class="flex h-7 w-7 items-center justify-center rounded-full bg-transparent transition-all duration-300 group-hover:bg-gray-400"><img alt="discord" loading="lazy" width="28" height="28" decoding="async" data-nimg="1" src="https://atlas.zoth.io/images/socials/discord.svg" style="color: transparent;"></div>
+            </a><a target="_blank" rel="noreferrer" class="group inline-block lg:mx-2" href="https://medium.com/@zoth.io">
+                <div class="flex h-7 w-7 items-center justify-center rounded-full bg-transparent transition-all duration-300 group-hover:bg-gray-400"><img alt="medium" loading="lazy" width="28" height="28" decoding="async" data-nimg="1" src="https://atlas.zoth.io/images/socials/medium.svg" style="color: transparent;"></div>
+            </a><a target="_blank" rel="noreferrer" class="group inline-block lg:mx-2" href="https://warpcast.com/zoth">
+                <div class="flex h-7 w-7 items-center justify-center rounded-full bg-transparent transition-all duration-300 group-hover:bg-gray-400"><img alt="Warpcast" loading="lazy" width="28" height="28" decoding="async" data-nimg="1" src="https://atlas.zoth.io/images/socials/warpcast.svg" style="color: transparent;"></div>
+            </a></div>
+    </div><button class="fixed bottom-14 right-6 hidden"><img alt="Scroll to top" loading="lazy" width="50" height="50" decoding="async" data-nimg="1" src="/images/global/scrollToTop.svg" style="color: transparent;"></button>
+    <div id="goog-gt-tt" class="VIpgJd-yAWNEb-L7lbkb skiptranslate" style="border-radius: 12px; margin: 0 0 0 -23px; padding: 0; font-family: 'Google Sans', Arial, sans-serif;" data-id="">
+        <div id="goog-gt-vt" class="VIpgJd-yAWNEb-hvhgNd">
+            <div class=" VIpgJd-yAWNEb-hvhgNd-l4eHX-i3jM8c"><img src="https://fonts.gstatic.com/s/i/productlogos/translate/v14/24px.svg" width="24" height="24" alt=""></div>
+            <div class=" VIpgJd-yAWNEb-hvhgNd-k77Iif-i3jM8c">
+                <div class="VIpgJd-yAWNEb-hvhgNd-IuizWc" dir="ltr">Исходный текст</div>
+                <div id="goog-gt-original-text" class="VIpgJd-yAWNEb-nVMfcd-fmcmS VIpgJd-yAWNEb-hvhgNd-axAV1"></div>
+            </div>
+            <div class="VIpgJd-yAWNEb-hvhgNd-N7Eqid ltr">
+                <div class="VIpgJd-yAWNEb-hvhgNd-N7Eqid-B7I4Od ltr" dir="ltr">
+                    <div class="VIpgJd-yAWNEb-hvhgNd-UTujCb">Оцените этот перевод</div>
+                    <div class="VIpgJd-yAWNEb-hvhgNd-eO9mKe">Ваш отзыв поможет нам улучшить Google Переводчик</div>
+                </div>
+                <div class="VIpgJd-yAWNEb-hvhgNd-xgov5 ltr"><button id="goog-gt-thumbUpButton" type="button" class="VIpgJd-yAWNEb-hvhgNd-bgm6sf" title="Хороший перевод" aria-label="Хороший перевод" aria-pressed="false"><span id="goog-gt-thumbUpIcon"><svg width="24" height="24" viewBox="0 0 24 24" focusable="false" class="VIpgJd-yAWNEb-hvhgNd-THI6Vb NMm5M">
+                                <path d="M21 7h-6.31l.95-4.57.03-.32c0-.41-.17-.79-.44-1.06L14.17 0S7.08 6.85 7 7H2v13h16c.83 0 1.54-.5 1.84-1.22l3.02-7.05c.09-.23.14-.47.14-.73V9c0-1.1-.9-2-2-2zM7 18H4V9h3v9zm14-7l-3 7H9V8l4.34-4.34L12 9h9v2z"></path>
+                            </svg></span><span id="goog-gt-thumbUpIconFilled"><svg width="24" height="24" viewBox="0 0 24 24" focusable="false" class="VIpgJd-yAWNEb-hvhgNd-THI6Vb NMm5M">
+                                <path d="M21 7h-6.31l.95-4.57.03-.32c0-.41-.17-.79-.44-1.06L14.17 0S7.08 6.85 7 7v13h11c.83 0 1.54-.5 1.84-1.22l3.02-7.05c.09-.23.14-.47.14-.73V9c0-1.1-.9-2-2-2zM5 7H1v13h4V7z"></path>
+                            </svg></span></button><button id="goog-gt-thumbDownButton" type="button" class="VIpgJd-yAWNEb-hvhgNd-bgm6sf" title="Плохой перевод" aria-label="Плохой перевод" aria-pressed="false"><span id="goog-gt-thumbDownIcon"><svg width="24" height="24" viewBox="0 0 24 24" focusable="false" class="VIpgJd-yAWNEb-hvhgNd-THI6Vb NMm5M">
+                                <path d="M3 17h6.31l-.95 4.57-.03.32c0 .41.17.79.44 1.06L9.83 24s7.09-6.85 7.17-7h5V4H6c-.83 0-1.54.5-1.84 1.22l-3.02 7.05c-.09.23-.14.47-.14.73v2c0 1.1.9 2 2 2zM17 6h3v9h-3V6zM3 13l3-7h9v10l-4.34 4.34L12 15H3v-2z"></path>
+                            </svg></span><span id="goog-gt-thumbDownIconFilled"><svg width="24" height="24" viewBox="0 0 24 24" focusable="false" class="VIpgJd-yAWNEb-hvhgNd-THI6Vb NMm5M">
+                                <path d="M3 17h6.31l-.95 4.57-.03.32c0 .41.17.79.44 1.06L9.83 24s7.09-6.85 7.17-7V4H6c-.83 0-1.54.5-1.84 1.22l-3.02 7.05c-.09.23-.14.47-.14.73v2c0 1.1.9 2 2 2zm16 0h4V4h-4v13z"></path>
+                            </svg></span></button></div>
+            </div>
+            <div id="goog-gt-votingHiddenPane" class="VIpgJd-yAWNEb-hvhgNd-aXYTce">
+                <form id="goog-gt-votingForm" action="//translate.googleapis.com/translate_voting?client=te_lib" method="post" target="votingFrame" class="VIpgJd-yAWNEb-hvhgNd-aXYTce"><input type="text" name="sl" id="goog-gt-votingInputSrcLang"><input type="text" name="tl" id="goog-gt-votingInputTrgLang"><input type="text" name="query" id="goog-gt-votingInputSrcText"><input type="text" name="gtrans" id="goog-gt-votingInputTrgText"><input type="text" name="vote" id="goog-gt-votingInputVote"></form><iframe name="votingFrame" frameborder="0"></iframe>
+            </div>
+        </div>
+    </div>
+    <div role="region" aria-label="Notifications (F8)" tabindex="-1" style="pointer-events: none;">
+        <ol tabindex="-1" class="fixed top-0 z-[100] flex max-h-screen w-full flex-col-reverse p-4 sm:bottom-0 sm:right-0 sm:top-auto sm:flex-col md:max-w-[420px]"></ol>
+    </div>
+
+
+
+</body></html>
